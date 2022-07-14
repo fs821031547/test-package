@@ -3,7 +3,7 @@
     /* Visit https://aka.ms/tsconfig to read more about this file */
     /* Basic Options */
     "baseUrl": ".", // 模块解析根路径，默认为 tsconfig.json 位于的目录
-    "rootDir": "src", // 编译解析根路径，默认为 tsconfig.json 位于的目录
+    // "rootDir": "src", // 编译解析根路径，默认为 tsconfig.json 位于的目录
     "target": "ESNEXT", // 指定输出 ECMAScript 版本，默认为 es5
     "module": "ESNext", // 指定输出模块规范，默认为 Commonjs
     "lib": [

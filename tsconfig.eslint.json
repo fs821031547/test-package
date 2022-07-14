@@ -3,8 +3,8 @@
     "include": [
         // 👇️ add all the directories and files
         // that you want to lint here
-        "src",
-        "tests",
+        "**/*.ts",
+        "**/*.js",
         // add all files in which you see
         // the "parserOptions.project" error
         ".eslintrc.cjs",

@@ -13,14 +13,10 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
-    project: ['./tsconfig.json'],
+    project: ['./tsconfig.eslint.json'],
     sourceType: 'module'
   },
-  plugins: [
-    'vue',
-    '@typescript-eslint',
-    'prettier'
-  ],
+  plugins: ['vue', '@typescript-eslint', 'prettier'],
   rules: {
     'prettier/prettier': 'error'
   }
